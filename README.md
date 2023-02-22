@@ -1,29 +1,13 @@
 # TimeCard
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a WIP.  It will be a timecard system for a local business in my area.  I can later make it generic to work for any company that still uses a paper or spreadsheet timecard system.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Features
+- Login for each employee that will only show their time cards.
+- Can view but not edit past pay periods
+- Submit each day and once submitted can't be edited except by management.
+- Can view current hours worked, current PTO hours remaining and current number of days used w/o pay
+- Managment can edit pay periods if there are mistakes.  
+- Save to PDF format to submit to payroll department.
+- Management and Owner can create accounts for new employees and give temp password which employee will be required to change on first login.
+- More features to come ...
